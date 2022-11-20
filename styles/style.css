@@ -44,6 +44,10 @@
   font-weight: bold;
 }
 
+.nav__link:hover {
+  color: #1f69c9;
+}
+
 /* Add the hover state styles for .nav__link here */
 
 .header__title {
@@ -65,6 +69,9 @@
   /* Write styles here */
   z-index: 1;
   max-width: 636px;
+  position: absolute;
+  top: 135px;
+  right: 20px;
 }
 
 .header__footer {
@@ -84,6 +91,9 @@
   text-decoration: none;
 }
 
+.header__link:hover {
+  color: #1f69c9;
+}
 /* Add the hover state styles for .header__link here */
 
 .header__address {
