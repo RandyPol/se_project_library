@@ -27,6 +27,7 @@
 
 .logo {
   width: 196px;
+  height: 60px;
 }
 
 .nav__links {
@@ -136,7 +137,6 @@
 
 .card {
   width: 360px;
-  height: 420px;
   background-color: #fff;
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
@@ -158,11 +158,9 @@
 }
 
 .card__text {
-  height: 75%;
   margin: 20px 0 10px;
   font-size: 16px;
   line-height: 24px;
-  overflow: scroll;
 }
 
 .card__footer {
@@ -272,7 +270,7 @@
 
 .person_name_feynman {
   /* Use correct values of top/right/bottom/left properties to position the element */
-  top: 0;
+  top: -30px;
   left: 319px;
 }
 
@@ -419,13 +417,13 @@
   background-color: #1f1f1f;
   color: #fff;
   padding: 60px 102px 60px 80px;
-  min-height: 224px;
   box-sizing: border-box;
   position: relative;
 }
 
 .footer__columns {
   display: flex;
+  min-height: 224px;
 }
 
 .footer__column_content_hours {
@@ -475,5 +473,6 @@
 }
 
 .footer__copyright {
-  margin-bottom: 60px;
+  margin-top: 0;
+  margin-bottom: 0;
 }
